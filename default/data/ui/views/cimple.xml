@@ -1,0 +1,24 @@
+<dashboard version="1.1" script="cimple.js" theme="light">
+  <label>CIM Config</label>
+  <fieldset submitButton="false" autoRun="false">
+    <html>
+      <h1>
+        <div align="center">CIMple</div>
+      </h1>
+      <center>
+        Event Type: <input type="text" id="eventType" placeholder="Enter your text here"/>
+        <button id="event_type_submit">Event Type Submit</button>
+      </center>
+      <center>
+        <div id="fieldscontainer">
+          <!-- Placeholder for dynamic inputs -->
+        </div>
+        <div id="mappingContainer">
+          <!-- Placeholder for dynamic inputs -->
+        </div>
+        <button id="fields_submit" style="visibility:hidden;">Fields Submit</button>
+        <button id="confirm" style="visibility:hidden;">Confirm</button>
+      </center>
+    </html>
+  </fieldset>
+</dashboard>
